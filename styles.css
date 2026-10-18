@@ -524,6 +524,56 @@ h2 em {
   text-decoration: none;
 }
 
+.more-hammond {
+  padding: 0 max(32px, calc((100vw - 1120px) / 2)) 72px;
+}
+
+.more-hammond-heading {
+  margin-bottom: 20px;
+}
+
+.more-hammond-heading .eyebrow {
+  margin-bottom: 6px;
+}
+
+.more-hammond-heading h2 {
+  margin: 0;
+  color: var(--forest);
+  font-size: clamp(28px, 3.5vw, 40px);
+}
+
+.more-hammond-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.more-hammond-card {
+  display: flex;
+  min-height: 88px;
+  padding: 20px 22px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  border: 1px solid #dfe3dc;
+  background: #fff;
+  color: var(--forest);
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: border-color .2s ease, background .2s ease, transform .2s ease;
+}
+
+.more-hammond-card > span:last-child {
+  color: #748b31;
+}
+
+.more-hammond-card:hover {
+  transform: translateY(-2px);
+  border-color: #bacb6a;
+  background: #f4f6e9;
+}
+
 .destination-card:hover .destination-link {
   color: var(--white);
 }
@@ -1383,6 +1433,11 @@ h2 em {
 }
 
 @media (max-width: 850px) {
+  .more-hammond {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+
   .golf-overview,
   .course-history {
     padding: 52px 32px;
@@ -1510,9 +1565,27 @@ h2 em {
   .dine-links-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+
+  .more-hammond-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (max-width: 650px) {
+  .more-hammond {
+    padding: 0 20px 54px;
+  }
+
+  .more-hammond-grid {
+    gap: 8px;
+  }
+
+  .more-hammond-card {
+    min-height: 72px;
+    padding: 15px;
+    font-size: 12px;
+  }
+
   html {
     scroll-padding-top: 85px;
   }
