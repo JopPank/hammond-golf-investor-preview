@@ -43,9 +43,11 @@ Then open <http://localhost:8000>.
   and replace both the text and PDF when the menu changes.
 - The Dandy Lion Brew Pub logo on the Dine page is extracted from the published
   menu PDF. Confirm the restaurant approves this logo use before launch.
-- The Dine page banner uses the supplied pizza photo. Broken Stick Brewing is
-  a separate full-card link on the homepage, with a short description based on
-  the brewery's published website.
+- The Dine page and homepage card use the supplied pizza photo and Dandy Lion
+  logo. The Stay card and page hero use the supplied Hammond Hill lodging photo.
+- Broken Stick Brewing is a separate full-card homepage link using a cans photo
+  from the brewery's published website:
+  <https://items-images-production.s3.us-west-2.amazonaws.com/files/b6d49cabcfdc0a915850bc9cb3102508587eda56/original.jpeg>.
 - The membership-policy page is an archived transcription of the 2024 PDF; the
   2024 terms expired. Replace it with club-approved, current terms before
   describing policies as current.
