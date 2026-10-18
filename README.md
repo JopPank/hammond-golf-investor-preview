@@ -74,10 +74,10 @@ source repository is public; this preview has no sign-in or password protection.
 
 1. Push all site files and the complete `assets` folder to the `main` branch
    root. Include this `CNAME` file.
-2. In the repository, open **Settings → Pages**, publish from the `main`
-   branch root, and set the custom domain to `hammondgolf.jopism.com`. GitHub
-   recommends adding the custom domain in the repository before setting DNS to
-   prevent subdomain takeovers. Its guide:
+2. In the repository, open **Settings → Pages** and confirm it publishes from
+   the `main` branch root. The committed `CNAME` file attaches
+   `hammondgolf.jopism.com` as the custom domain. GitHub recommends attaching
+   the custom domain before setting DNS to prevent subdomain takeovers. Its guide:
    [Managing a custom domain for GitHub Pages](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site).
 3. In GoDaddy DNS for `jopism.com`, add only this record:
 
