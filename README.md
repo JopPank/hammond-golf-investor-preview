@@ -1,12 +1,12 @@
 # Hammond Golf website template
 
 A self-contained, responsive static-site concept for `hammondgolf.jopism.com`.
-The homepage prioritizes four visitor choices—Golf, Stay, Dine and Practice—
-with full-card links to booking, lodging contact, the Dine page and Eagle Woods.
-The top navigation opens dedicated pages for each destination, with golf
-booking and Hammond Hill lodging actions prominent on their pages. The Dine
-page puts the restaurant menu and links to events, the patio, private events,
-FAQs and contact in view.
+The homepage prioritizes five visitor choices—Golf, Stay, Dine, Practice and
+Broken Stick Brewing—with full-card links to each destination. The Golf page
+includes course details, a photo gallery, the club's history and a scorecard
+link. Every page has a persistent tee-time booking link and a shared contact
+section in the footer. The Dine page puts the restaurant menu and links to
+events, the patio, private events, FAQs and contact in view.
 A centered, dismissible booking prompt appears on the homepage. The sticky
 header keeps address and Français links visible. The Hammond crest is used in
 the wordmark, and Phoenix Glass & Aluminum's official logo and ownership credit
@@ -53,7 +53,10 @@ Then open <http://localhost:8000>.
   describing policies as current.
 - The course photographs are loaded from the existing `hammondgolf.com` site.
   For production, confirm permission and consider moving optimized copies into
-  this site's own image library.
+  this site's own image library. The golf overview, course gallery, and history
+  are based on the club's published [course information](https://www.hammondgolf.com/),
+  [scorecard](https://www.hammondgolf.com/wp-content/uploads/2021/08/Scoerecard.pdf),
+  and [history](https://www.hammondgolf.com/ourhistory/).
 - `assets/hammond-golf-crest.png` is the Hammond crest image provided for this
   design. Confirm the club has a high-resolution production logo before launch.
 - The Phoenix Glass & Aluminum ownership credit is based on the ownership
