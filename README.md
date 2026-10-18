@@ -13,8 +13,7 @@ Hammond Hill, the Dandy Lion and Broken Stick, and explains that availability
 and reservations are confirmed with each business separately.
 A centered, dismissible booking prompt appears on the homepage. The sticky
 header keeps address and Français links visible. The Hammond crest is used in
-the wordmark, and Phoenix Glass & Aluminum's official logo and ownership credit
-appear in the footer throughout the site.
+the wordmark.
 
 `golf.html`, `stay.html`, `dine.html` and `practice.html` are the four main
 destination pages. `members.html` presents the English 2026 Members’ Corner
@@ -63,15 +62,8 @@ Then open <http://localhost:8000>.
   and [history](https://www.hammondgolf.com/ourhistory/).
 - `assets/hammond-golf-crest.png` is the original supplied crest kept in the
   image library as a reference; the new SVG logo is used in the header/footer.
-- `assets/hammond-golf-logo-1980.jpg` is the supplied final Phoenix Mane Shield
-  logo with no flames and an Est. 1980 mark.
-- The Phoenix Glass & Aluminum ownership credit is based on the ownership
-  information provided for this design. Confirm the wording with the club before
-  publishing. The linked note that Phoenix is Ottawa-based and has served the
-  region since 2008 is based on its [About the Company page](https://phoenixglass.ca/about-the-company).
-- `assets/phoenix-glass-new-logo.jpg` is the user-supplied Phoenix Glass &
-  Aluminum logo used for the ownership credit. Confirm permission and approved
-  use of the logo with the owner before launch.
+- `assets/hammond-golf-logo-1980.jpg` is the supplied Hammond shield logo with
+  an Est. 1980 mark.
 - The stay card links to Hammond Hill's contact page and lists its publicly
   advertised phone number. Verify this is the correct room-reservation contact
   before launch.
