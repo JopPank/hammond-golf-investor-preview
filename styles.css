@@ -695,6 +695,79 @@ h2 em {
   gap: 10px;
 }
 
+.golf-rates {
+  padding: 56px max(32px, calc((100vw - 1120px) / 2)) 62px;
+  scroll-margin-top: 115px;
+  background: #ecefe7;
+}
+
+.golf-rates-heading {
+  margin-bottom: 22px;
+}
+
+.golf-rates-heading .eyebrow {
+  margin-bottom: 6px;
+}
+
+.golf-rates-heading h2 {
+  margin: 0 0 6px;
+  color: var(--forest);
+  font-size: clamp(32px, 4vw, 44px);
+}
+
+.golf-rates-heading > p:last-child {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.golf-rates-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.golf-rate-card {
+  padding: 22px 24px;
+  background: var(--white);
+}
+
+.golf-rate-card h3 {
+  margin: 0 0 10px;
+  color: var(--forest);
+  font-size: 14px;
+}
+
+.golf-rate-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.golf-rate-card .golf-rate-price {
+  margin-bottom: 2px;
+  color: #718f18;
+  font-family: var(--serif);
+  font-size: 38px;
+  line-height: 1.2;
+}
+
+.golf-rates-note {
+  margin: 18px 0;
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.7;
+}
+
+.golf-rates-note a {
+  color: var(--forest);
+  text-underline-offset: 3px;
+}
+
+.golf-rates > .button {
+  display: inline-flex;
+}
+
 .destination-info {
   display: grid;
   width: min(960px, calc(100% - 64px));
@@ -1407,6 +1480,11 @@ h2 em {
     padding-left: 32px;
   }
 
+  .golf-rates {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+
   .golf-overview,
   .course-history {
     padding: 52px 32px;
@@ -1541,6 +1619,36 @@ h2 em {
 }
 
 @media (max-width: 650px) {
+  .golf-rates {
+    padding: 42px 20px 48px;
+  }
+
+  .golf-rates-grid {
+    grid-template-columns: 1fr;
+    gap: 9px;
+  }
+
+  .golf-rate-card {
+    display: grid;
+    padding: 16px 18px;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+    gap: 2px 12px;
+  }
+
+  .golf-rate-card h3 {
+    margin-bottom: 0;
+  }
+
+  .golf-rate-card .golf-rate-price {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+  }
+
+  .golf-rate-card > p:last-child {
+    grid-column: 1;
+  }
+
   .more-hammond {
     padding: 0 20px 54px;
   }

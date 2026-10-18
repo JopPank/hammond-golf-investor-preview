@@ -3,10 +3,10 @@
 A self-contained, responsive static-site concept for `hammondgolf.jopism.com`.
 The homepage prioritizes five visitor choices—Golf, Stay, Dine, Practice and
 Broken Stick Brewing—with full-card links to each destination. The Golf page
-includes course details, a photo gallery, the club's history and a scorecard
-link. Every page has a persistent tee-time booking link and a shared contact
-section in the footer. The Dine page puts the restaurant menu and links to
-events, the patio, private events, FAQs and contact in view.
+includes current green-fee rates, course details, a photo gallery, the club's
+history and a scorecard link. Every page has a persistent tee-time booking link
+and a shared contact section in the footer. The Dine page puts the restaurant
+menu and links to events, the patio, private events, FAQs and contact in view.
 A centered, dismissible booking prompt appears on the homepage. The sticky
 header keeps address and Français links visible. The Hammond crest is used in
 the wordmark, and Phoenix Glass & Aluminum's official logo and ownership credit
