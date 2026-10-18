@@ -577,7 +577,15 @@ h2 em {
 }
 
 .destination-hero-dine {
-  background-image: linear-gradient(135deg, #526b54, #1c3529 70%);
+  background-image:
+    linear-gradient(110deg, rgba(19, 40, 32, .76), rgba(19, 40, 32, .35) 58%, rgba(19, 40, 32, .12)),
+    url("assets/dandy-lion-pizza-banner.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.destination-hero-dine::before {
+  background: linear-gradient(90deg, rgba(10, 30, 22, .22), rgba(13, 36, 27, .1) 58%, rgba(15, 39, 29, .06));
 }
 
 .destination-hero-dine .destination-page-copy {
@@ -710,6 +718,56 @@ h2 em {
 .dine-quick-links a:hover {
   background: var(--forest);
   color: var(--white);
+}
+
+.brewery-feature {
+  padding: 48px 32px;
+  background: var(--forest-deep);
+  color: var(--white);
+}
+
+.brewery-feature-inner {
+  display: grid;
+  width: min(1120px, 100%);
+  margin: 0 auto;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  gap: 40px;
+}
+
+.brewery-feature-copy .eyebrow {
+  margin-bottom: 8px;
+  color: var(--lime);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+
+.brewery-feature-copy h2 {
+  margin: 0 0 10px;
+  color: var(--white);
+  font-size: clamp(30px, 4vw, 42px);
+}
+
+.brewery-feature-copy > p:last-child {
+  max-width: 620px;
+  margin: 0;
+  color: rgba(255, 255, 255, .78);
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.brewery-feature-actions {
+  display: flex;
+  min-width: 245px;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.brewery-feature-actions .button {
+  justify-content: center;
+  text-align: center;
 }
 
 .dine-menu {
@@ -1478,6 +1536,23 @@ h2 em {
   .dine-quick-links {
     padding-bottom: 20px;
     gap: 6px;
+  }
+
+  .brewery-feature {
+    padding: 34px 20px;
+  }
+
+  .brewery-feature-inner {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .brewery-feature-copy h2 {
+    font-size: 32px;
+  }
+
+  .brewery-feature-actions {
+    min-width: 0;
   }
 
   .dine-quick-links a {
