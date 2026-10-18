@@ -69,9 +69,9 @@ Then open <http://localhost:8000>.
   information provided for this design. Confirm the wording with the club before
   publishing. The linked note that Phoenix is Ottawa-based and has served the
   region since 2008 is based on its [About the Company page](https://phoenixglass.ca/about-the-company).
-- `assets/phoenix-glass-logo.png` is downloaded from the Phoenix Glass & Aluminum
-  website for the ownership credit. Confirm permission and approved use of the
-  logo with the owner before launch.
+- `assets/phoenix-glass-new-logo.jpg` is the user-supplied Phoenix Glass &
+  Aluminum logo used for the ownership credit. Confirm permission and approved
+  use of the logo with the owner before launch.
 - The stay card links to Hammond Hill's contact page and lists its publicly
   advertised phone number. Verify this is the correct room-reservation contact
   before launch.
