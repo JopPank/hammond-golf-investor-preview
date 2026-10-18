@@ -7,6 +7,10 @@ includes current green-fee rates, course details, a photo gallery, the club's
 history and a scorecard link. Every page has a persistent tee-time booking link
 and a shared contact section in the footer. The Dine page puts the restaurant
 menu and links to events, the patio, private events, FAQs and contact in view.
+A homepage course-status panel directs visitors to call for today's conditions
+rather than displaying unverified live data. A visit planner links to golf,
+Hammond Hill, the Dandy Lion and Broken Stick, and explains that availability
+and reservations are confirmed with each business separately.
 A centered, dismissible booking prompt appears on the homepage. The sticky
 header keeps address and Français links visible. The Hammond crest is used in
 the wordmark, and Phoenix Glass & Aluminum's official logo and ownership credit

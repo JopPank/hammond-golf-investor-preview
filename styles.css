@@ -557,6 +557,160 @@ h2 em {
   font-size: 10px;
 }
 
+.course-status {
+  display: flex;
+  padding: 38px max(32px, calc((100vw - 1120px) / 2));
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  background: #e9ede4;
+}
+
+.course-status-copy {
+  max-width: 650px;
+}
+
+.course-status-copy .eyebrow {
+  margin-bottom: 5px;
+}
+
+.course-status-copy h2 {
+  margin: 0 0 7px;
+  color: var(--forest);
+  font-size: clamp(25px, 3vw, 34px);
+}
+
+.course-status-copy > p:last-child {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.course-status-actions {
+  display: flex;
+  min-width: max-content;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.course-status-actions .text-link {
+  color: var(--forest);
+  font-size: 11px;
+}
+
+.visit-planner {
+  width: min(1120px, calc(100% - 64px));
+  margin: 0 auto;
+  padding: 72px 0 76px;
+}
+
+.visit-planner-heading {
+  margin-bottom: 23px;
+}
+
+.visit-planner-heading .eyebrow {
+  margin-bottom: 6px;
+}
+
+.visit-planner-heading h2 {
+  margin: 0 0 5px;
+  color: var(--forest);
+  font-size: clamp(32px, 4vw, 44px);
+}
+
+.visit-planner-heading > p:last-child {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.visit-planner-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.visit-planner-card {
+  display: flex;
+  min-height: 210px;
+  padding: 22px;
+  align-items: flex-start;
+  flex-direction: column;
+  border: 1px solid #dfe3dc;
+  background: var(--white);
+}
+
+.visit-planner-step {
+  color: #71851d;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+
+.visit-planner-card h3 {
+  margin: 9px 0 4px;
+  color: var(--forest);
+  font-family: var(--serif);
+  font-size: 23px;
+  font-weight: 500;
+}
+
+.visit-planner-card p {
+  margin: 0 0 16px;
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.visit-planner-card a {
+  margin-top: auto;
+  color: var(--forest);
+  font-size: 11px;
+  font-weight: 700;
+  text-underline-offset: 3px;
+}
+
+.visit-planner-card a + a {
+  margin-top: 8px;
+}
+
+.visit-coordination {
+  display: flex;
+  margin-top: 15px;
+  padding: 20px 22px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  background: #f0f0e9;
+}
+
+.visit-coordination h3 {
+  margin: 0 0 4px;
+  color: var(--forest);
+  font-size: 14px;
+}
+
+.visit-coordination p {
+  max-width: 700px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.button-outline {
+  flex: 0 0 auto;
+  border: 1px solid #b9c2b9;
+  background: transparent;
+  color: var(--forest);
+}
+
+.button-outline:hover {
+  border-color: var(--forest);
+  background: var(--white);
+  color: var(--forest);
+}
+
 .destination-page {
   min-height: 60vh;
 }
@@ -1446,6 +1600,19 @@ h2 em {
     padding-left: 32px;
   }
 
+  .course-status {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+
+  .visit-planner-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .visit-planner-card:last-child {
+    grid-column: 1 / -1;
+  }
+
   .golf-rates {
     padding-right: 32px;
     padding-left: 32px;
@@ -1613,6 +1780,40 @@ h2 em {
 
   .more-hammond {
     padding: 0 20px 54px;
+  }
+
+  .course-status {
+    padding: 32px 20px;
+    align-items: stretch;
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .course-status-actions {
+    min-width: 0;
+  }
+
+  .visit-planner {
+    width: calc(100% - 40px);
+    padding: 50px 0 54px;
+  }
+
+  .visit-planner-grid {
+    grid-template-columns: 1fr;
+    gap: 9px;
+  }
+
+  .visit-planner-card,
+  .visit-planner-card:last-child {
+    min-height: 0;
+    padding: 19px;
+    grid-column: auto;
+  }
+
+  .visit-coordination {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 14px;
   }
 
   .more-hammond-grid {
