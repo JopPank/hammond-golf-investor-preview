@@ -57,8 +57,11 @@ Then open <http://localhost:8000>.
   are based on the club's published [course information](https://www.hammondgolf.com/),
   [scorecard](https://www.hammondgolf.com/wp-content/uploads/2021/08/Scoerecard.pdf),
   and [history](https://www.hammondgolf.com/ourhistory/).
-- `assets/hammond-golf-crest.png` is the Hammond crest image provided for this
-  design. Confirm the club has a high-resolution production logo before launch.
+- `assets/hammond-golf-crest.png` is the original supplied crest kept in the
+  image library as a reference; the new SVG logo is used in the header/footer.
+- `assets/hammond-golf-logo-1980.svg` is the new vector Concept 3-inspired
+  Phoenix Mane Shield with no flames and an Est. 1980 mark. Confirm the club
+  approves this concept and the establishment date before official use.
 - The Phoenix Glass & Aluminum ownership credit is based on the ownership
   information provided for this design. Confirm the wording with the club before
   publishing. The linked note that Phoenix is Ottawa-based and has served the
