@@ -41,6 +41,8 @@ Then open <http://localhost:8000>.
   published `assets/dandy-lion-current-menu.pdf` (uploaded to its website in
   May 2026). Confirm with the restaurant that it is still approved before launch
   and replace both the text and PDF when the menu changes.
+- The Dandy Lion Brew Pub logo on the Dine page is extracted from the published
+  menu PDF. Confirm the restaurant approves this logo use before launch.
 - The membership-policy page is an archived transcription of the 2024 PDF; the
   2024 terms expired. Replace it with club-approved, current terms before
   describing policies as current.
