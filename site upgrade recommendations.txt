@@ -1,0 +1,64 @@
+
+---
+
+### 1. Immersive Visual Storytelling & Hero Media
+
+* **What They Do Well:**
+* *Gleneagles* immediately immerses visitors with high-end cinematic video and photography emphasizing "The Glorious Playground," blending luxury lifestyle, golf, and dining.
+* *St Andrews* uses interactive 360° virtual hole-by-hole aerial tours and live webcams.
+
+
+* **What Hammond Can Incorporate:**
+* Feature high-production cinematic background video on the homepage highlighting the pristine fairways alongside drone shots of the **Broken Stick brewery** patio and **Hammond Hill** eco-glamping.
+* Implement interactive course hole flyovers so prospective visitors can visualize the strategic layout.
+
+
+
+### 2. Seamless "Stay, Play & Dine" Package Bundling
+
+* **What They Do Well:**
+* *Pinehurst* and *Gleneagles* excel at packaging their assets together (Golf + Accommodations + Dining + Spa) with clear, frictionless booking paths for multi-day trips and buddy groups.
+
+
+* **What Hammond Can Incorporate:**
+* Create dedicated, one-click landing pages for bundled packages (e.g., the *"Stay, Play & Brew"* weekend package combining golf, Hammond Hill glamping, and Broken Stick dining).
+* Make booking an all-inclusive trip as effortless as booking a single tee time.
+
+
+
+### 3. Clear Categorization for Diverse Audiences
+
+* **What They Do Well:**
+* Their navigation bars immediately segment users by intent: *Golfers* (tee times, course status, academy), *Guests/Stay* (cottages, hotels), *Dining*, and *Events/Weddings*.
+
+
+* **What Hammond Can Incorporate:**
+* Restructure the website navigation to cater directly to three distinct personas:
+1. **Daily-Fee & Enthusiast Golfers** (Tee times, rates, memberships).
+2. **Destination Tourists & Groups** (Stay-and-play packages, brewery/pub visitors).
+3. **Event & Corporate Planners** (Tournaments, weddings, private pavilion bookings).
+
+
+
+
+
+### 4. Interactive Course Status & Transparency
+
+* **What They Do Well:**
+* *St Andrews* and *Pinehurst* provide prominent, real-time updates regarding course conditions, weather alerts, and seasonal maintenance schedules right on the homepage.
+
+
+* **What Hammond Can Incorporate:**
+* Add a prominent "Course Status & Weather" widget on the homepage banner (Open/Cart Path Only/Closed, current temperature, and green speeds) to build trust and eliminate unnecessary phone calls to the pro shop.
+
+
+
+### 5. Content Hubs: News, Blogs, and Social Proof
+
+* **What They Do Well:**
+* They feature dynamic journals or stories (e.g., Pinehurst's design updates, St Andrews' historic milestones) alongside integrated user-generated content (UGC) galleries featuring real guest photos (`#HomeOfGolf`).
+
+
+* **What Hammond Can Incorporate:**
+* Add a "Stories from the Course & Brewery" blog section highlighting course renovations, chef specials at the Dandy Lion, and new craft beer releases from Broken Stick.
+* Embed a live Instagram/social wall showing real golfers enjoying the course and patio.
